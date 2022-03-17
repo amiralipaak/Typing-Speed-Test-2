@@ -1,6 +1,35 @@
+body {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #072f49;
+  color: #f0f8ff;
+}
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #085353;
+  border: solid 1px;
+}
+
 .cursor {
-  background-color: aqua;
+  background-color: #3ca50c;
 }
 .done {
-  color: gray;
+  color: rgb(19, 90, 148);
+}
+.hidden {
+  display: none;
+}
+.button {
+  margin: 10px;
+  padding: 8px;
+  border: solid #085353 5px;
+  border-radius: 10px;
+}
+#stats {
+  color: #f0f8ff;
+  padding: 10px;
+  font-size: 35px;
 }
